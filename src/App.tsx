@@ -36,18 +36,22 @@ function App(): JSX.Element {
         </button>
       </div>
       <div className="imgcontainer">
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-          width="55"
-          height="55"
-          alt="GitHub logo"
-        />
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/YouTube_social_white_squircle.svg/800px-YouTube_social_white_squircle.svg.png"
-          width="55"
-          height="55"
-          alt="YouTube logo"
-        />
+        <a href="https://github.com/sajsiv/LinBin">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            width="55"
+            height="55"
+            alt="GitHub logo"
+          />
+        </a>
+        <a href="https://www.youtube.com/watch?v=6_ipZYav8zY">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/YouTube_social_white_squircle.svg/800px-YouTube_social_white_squircle.svg.png"
+            width="55"
+            height="55"
+            alt="YouTube logo"
+          />
+        </a>
       </div>
     </>
   );
