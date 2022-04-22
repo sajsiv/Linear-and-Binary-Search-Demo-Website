@@ -36,7 +36,11 @@ function App(): JSX.Element {
         </button>
       </div>
       <div className="imgcontainer">
-        <a href="https://github.com/sajsiv/LinBin" target="_blank" rel="noreferrer" >
+        <a
+          href="https://github.com/sajsiv/LinBin"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
             width="55"
@@ -44,7 +48,11 @@ function App(): JSX.Element {
             alt="GitHub logo"
           />
         </a>
-        <a href="https://www.youtube.com/watch?v=6_ipZYav8zY" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.youtube.com/watch?v=6_ipZYav8zY"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/YouTube_social_white_squircle.svg/800px-YouTube_social_white_squircle.svg.png"
             width="55"
